@@ -1,0 +1,19 @@
+{
+  "name": "js-spatial-navigation",
+  "version": "1.0.0",
+  "description": "JavaScript SpatialNavigation ============================",
+  "main": "spatial_navigation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivshti/js-spatial-navigation.git"
+  },
+  "author": "Luke Chang",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Ivshti/js-spatial-navigation/issues"
+  },
+  "homepage": "https://github.com/Ivshti/js-spatial-navigation#readme"
+}
