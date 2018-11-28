@@ -1062,6 +1062,9 @@
         _sections[sectionId] = undefined;
         _sections = extend({}, _sections);
         _sectionCount--;
+        if (_lastSectionId === sectionId) {
+          _lastSectionId = '';
+        }
         return true;
       }
       return false;
@@ -1209,6 +1212,13 @@
   };
 
   window.SpatialNavigation = SpatialNavigation;
+  
+  /**********************/
+  /* CommonJS Interface */
+  /**********************/
+  if (typeof module === 'object') {
+      module.exports = SpatialNavigation;
+  }
 
   /********************/
   /* jQuery Interface */
